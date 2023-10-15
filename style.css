@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .box1{
   background-color: #F7F7FC;
   display: flex;
@@ -201,6 +205,10 @@ flex: 1 0 0;
   gap: 16px;
   align-self: stretch;
 }
+.footer_img{
+  width: 18px;
+  height: 18px;
+}
 .footertext{
   align-self: stretch;
   color: #372D41;
@@ -211,10 +219,77 @@ flex: 1 0 0;
   font-weight: 400;
   line-height: 16px; /* 160% */
   letter-spacing: 0.25px;
-  margin-top: 15px;
 }
 p {
   margin-top: 1px; 
   margin-bottom: 0px; 
  }
-  
+
+@media screen and (max-width: 320px) {
+.body{
+  width: 320px;
+}
+.page{
+  width: 320px;
+}
+.box1 {
+  height: 500px;
+  width: 320px;
+}
+.header {
+  height: 168px;
+  width: 280px; 
+}
+
+.introsection{
+  height: 336px;
+  width: 280px;
+}
+.title{
+height: 80px;
+}
+.issue{
+height: 42px;
+}
+
+.maintext{
+  width: 280px;
+}
+.link{
+  width: 280px;
+  height: 336px;
+}
+.box2{
+  height: 520px;
+  width: 320px;
+}
+.box3{
+  height: 630px;
+  width: 320px;
+}
+
+.maintext_news{
+  width: 240px;
+}
+.maintext_link{
+  width: 240px;
+}
+.innerbox{
+  width: 240px;
+}
+.heading{
+  width: 240px;
+}
+.newshead{
+  width: 189px;
+}
+.footer{
+  width: 320px;
+}
+.nets{
+  width:320px;
+}
+}
+
+
+
