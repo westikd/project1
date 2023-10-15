@@ -1,0 +1,220 @@
+.box1{
+  background-color: #F7F7FC;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.header{
+  display: flex;
+  width: 550px;
+  align-items: center;
+}
+.description{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+flex: 1 0 0;
+}
+.logo{
+  display: flex;
+  padding: 16px 0px 10px 0px;
+  align-items: flex-start;
+  align-self: stretch;
+  width: 116.26px;
+  height: 20px;
+}
+.title{
+  display: flex;
+  padding-bottom: 0px;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  color: #0576F0;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.75px;
+  flex: 1 0 0;
+}
+.issue{
+  display: flex;
+  padding-bottom: 0px;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  color: #14142B;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; 
+  letter-spacing: 0.5px;
+  flex: 1 0 0;
+}
+.cup{
+  display: flex;
+  padding: 16px 0px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  width: 110px;
+  align-self: stretch;
+}
+.introsection{
+  display: flex;
+  width: 550px;
+  padding: 16px 0px 24px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.maintext{
+  width: 550px;
+  color: #4E4B66;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 0.25px;
+}
+.link{
+  color: #0576F0;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 0.25px;
+  width: 550px;
+}
+.box2{
+  display: flex;
+  width: 100%;
+  padding: 16px 0px 24px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: #EFF0F6;
+}
+.innerbox{
+  display: flex;
+  width: 550px;
+  padding: 16px 16px 24px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 8px;
+  background-color: #Fff;
+}
+.heading{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+}
+.maintext_news{
+  align-self: stretch;
+  color: #4E4B66;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  letter-spacing: 0.25px;
+}
+.num{
+  color: #14142B;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 100% */
+  letter-spacing: 0.5px;
+}
+.rec{
+  width: 1px;
+  height: 25px;
+  background: #14142B;
+}
+.newshead{
+  flex: 1 0 0;
+  color: #14142B;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.5px;
+}
+.maintext_link{
+    color: #0576F0;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+.box3{
+  display: flex;
+  width: 100%;
+  padding: 16px 0px 24px 0px;
+  flex-direction: column;
+  align-items: center;
+  background: #F7F7FC;
+}
+.box4{
+  display: flex;
+  width: 100%;
+  padding: 16px 0px 24px 0px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EFF0F6;
+}
+.box5{
+  display: flex;
+  width: 100%;
+  padding: 16px 0px 24px 0px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F7F7FC;
+}
+.footerbox{
+  display: flex;
+  width: 100%;
+  padding: 16px 0px 32px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.footer{
+  display: flex;
+  width: 550px;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.nets{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+.footertext{
+  align-self: stretch;
+  color: #372D41;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 160% */
+  letter-spacing: 0.25px;
+  margin-top: 15px;
+}
+p {
+  margin-top: 1px; 
+  margin-bottom: 0px; 
+ }
+  
